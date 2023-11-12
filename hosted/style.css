@@ -50,7 +50,7 @@ nav:nth-child(1) {
 .domoForm {
     border: 2px solid #338acc;
     height: 35px;
-    width: 700px;
+    width: 850px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
@@ -69,6 +69,13 @@ nav:nth-child(1) {
 
 .domoForm input[type=text] {
     float:left;
+    margin-right: 10px;
+}
+
+.domoForm input[type=number] {
+    float:left;
+    width: 80px;
+    margin-right: 10px;
 }
 
 .makeDomoSubmit {
@@ -79,6 +86,7 @@ nav:nth-child(1) {
     border-radius: 2px;
     color: white;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .makeDomoSubmit:link, .makeDomoSubmit:visited, .makeDomoSubmit:hover, .makeDomoSubmit:active {
@@ -251,6 +259,15 @@ h3.domoAge {
     float:right;
     text-align: left;
     width: 100px;
+    font-weight: bold;
+    padding-right: 40px;
+    font-size: 1.5em;
+}
+
+h3.domoJob {
+    float:right;
+    text-align: left;
+    width: 180px;
     font-weight: bold;
     padding-right: 40px;
     font-size: 1.5em;
