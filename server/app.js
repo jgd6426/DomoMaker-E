@@ -25,7 +25,7 @@ mongoose.connect(dbURI).catch((err) => {
 });
 
 const redisClient = redis.createClient({
-  url: process.env.REDISCLOUD_URL || 'redis://default:KeZ1yUMbNTjbVm1QNtCxjJhKKzqd3TAd@redis-18677.c98.us-east-1-4.ec2.cloud.redislabs.com:18677',
+  url: process.env.REDISCLOUD_URL,
 });
 
 redisClient.on('error', (err) => console.log('Redis Client Error', err));
